@@ -3,6 +3,7 @@ package com.antonioalves.projeto.services;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.antonioalves.projeto.models.Task;
@@ -11,6 +12,7 @@ import com.antonioalves.projeto.repository.TaskRepository;
 @Service
 public class TaskServiceImpl implements TaskService{
 	
+	@Autowired
 	TaskRepository repository;
 	
 	
