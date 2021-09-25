@@ -1,11 +1,13 @@
-package com.antonioalves.projeto.bootstrap;
+package com.antonioalves.projeto.app;
 
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
-import com.antonioalves.projeto.models.Status;
-import com.antonioalves.projeto.models.Task;
-import com.antonioalves.projeto.repository.TaskRepository;
+import com.antonioalves.projeto.app.models.Status;
+import com.antonioalves.projeto.app.models.Task;
+import com.antonioalves.projeto.app.repository.TaskRepository;
 
+@Component
 public class TaskLoader implements CommandLineRunner{
 	public final TaskRepository repository;
 	

@@ -1,4 +1,4 @@
-package com.antonioalves.projeto.models;
+package com.antonioalves.projeto.app.models;
 
 public enum Status {
 	COMPLETE, NOT_COMPLETE, IN_PROGRESS

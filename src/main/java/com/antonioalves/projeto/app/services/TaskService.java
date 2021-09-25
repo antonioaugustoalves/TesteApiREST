@@ -1,8 +1,8 @@
-package com.antonioalves.projeto.services;
+package com.antonioalves.projeto.app.services;
 
 import java.util.List;
 
-import com.antonioalves.projeto.models.Task;
+import com.antonioalves.projeto.app.models.Task;
 
 public interface TaskService {
 	List<Task> getTasks();

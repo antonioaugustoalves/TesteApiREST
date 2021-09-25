@@ -1,4 +1,4 @@
-package com.antonioalves.projeto.services;
+package com.antonioalves.projeto.app.services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.antonioalves.projeto.models.Task;
-import com.antonioalves.projeto.repository.TaskRepository;
+import com.antonioalves.projeto.app.models.Task;
+import com.antonioalves.projeto.app.repository.TaskRepository;
 
 @Service
 public class TaskServiceImpl implements TaskService{
